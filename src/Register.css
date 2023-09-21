@@ -1,0 +1,134 @@
+
+.p-dialog .p-dialog-content {
+   background: #011540 !important; 
+  color: #ffc107 !important;
+  padding: 0 1.5rem 2rem 1.5rem;
+  width: 150%;
+}
+  .p-tabview .p-tabview-panels {
+    background: #011540;
+    padding: 1.25rem;
+    border: 0 none;
+    color: #ffc107;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .form-control {
+    display: block;
+ 
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffc107;
+    background-color: #011540;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: 0.375rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+
+ 
+  
+
+  
+  .p-dialog .p-dialog-header {
+    border-bottom: 0 none;
+    background:#011540 !important;
+    color: #ffc107 !important;
+    padding: 1.5rem;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    width: 150%;
+}
+  
+  .p-dialog .p-dialog-header .p-dialog-header-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #ffc107;
+    border: 0 none;
+    background: transparent;
+    border-radius: 50%;
+    transition: background-color 0.2s, color 0.2s, box-shadow 0.2s;
+    margin-right: 0.5rem;
+  }
+  
+  .p-dialog .p-dialog-header .p-dialog-header-icon:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem #ffc107;
+  }
+  
+  .p-dialog .p-dialog-header .p-dialog-header-icon:enabled:hover {
+    color: #011540;
+    border-color: transparent;
+    background: #ffc107;
+  }
+  
+  .p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button, .p-fileupload-choose.p-button-success {
+    color: #ffc107;
+    background: transparent;
+    border: 1px solid #ffc107;
+  }
+  
+  .p-button.p-button-success:enabled:hover {
+    background: #ffc107;
+    color: #011540;
+    border-color: #ffc107;
+  }
+  
+  .input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    color: fieldtext !important;
+  }
+  
+  .p-paginator {
+  
+    color: #ffc107 !important;
+    border: solid white;
+    border-width: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+  }
+  span.p-tabview-title {
+      margin-left: 45px;
+  }
+
+  .btn-outline-success {
+    --mdb-btn-bg: transparent;
+    --mdb-btn-color: #ffc107;
+    --mdb-btn-hover-bg: #ffc107;
+    --mdb-btn-hover-color: #212529;
+    --mdb-btn-focus-bg: transparent;
+    --mdb-btn-focus-color:#ffc107;
+    --mdb-btn-active-bg: transparent;
+    --mdb-btn-active-color:#ffc107;
+    border-color:#ffc107;
+}
+  
+.btn-outline-success {
+  --bs-btn-color: #ffc107;
+  --bs-btn-border-color: #ffc107;
+  --bs-btn-hover-color: #212529;
+  --bs-btn-hover-bg: #ffc107;
+  --bs-btn-hover-border-color: #ffc107;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ffc107;
+  --bs-btn-active-border-color: #ffc107;
+  --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #ffc107;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #ffc107;
+  --bs-gradient: none;
+}
+
+.btn-custom {
+  margin-left: 10px;
+  margin-top: 20px;
+margin-bottom: 22px;
+
+}

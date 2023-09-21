@@ -1,0 +1,204 @@
+.grid-c1{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.grid-c1-content{
+    flex: 1;
+}
+
+.grid-chart{
+    display: grid;
+    grid-template-columns: repeat(13,1fr);
+    align-items: stretch;
+    height: 100%;
+}
+
+.chart-vert-value{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+font-size: 10px;
+}
+
+.grid-chart-bar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid-chart-bar .bar-warpper0{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper1{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper2{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper3{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper4{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper5{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper6{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper7{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper8{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper9{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.grid-chart-bar .bar-warpper10{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.grid-chart-bar .bar-warpper11{
+    flex: 1;
+    width: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    /* background-color: var(--clr-primeray-light); */
+    background-color:#ebebeb;
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.grid-chart-bar .grid-hortz-value{
+    margin-top: 8px;
+    font-size: 10px;
+}
+
+.grid-chart-bar .bar-item1{
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    width: 70%;
+    /* background-color: var(--clr--pumpkin); */
+    background-color:#14a44d;
+    border-radius: 10px;
+}

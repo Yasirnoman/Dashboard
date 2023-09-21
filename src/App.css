@@ -1,0 +1,1231 @@
+ body {
+  margin: 0;
+  padding: 0;
+ background-color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.Routes-div{
+  background-color: #011540;
+ }
+
+
+.icon {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 20px;
+}
+.icon_header {
+  vertical-align: middle;
+  line-height: 1px;
+  font-size: 26px;
+}
+.icon, .icon_header {
+  margin-right: 5px;
+}
+
+.close_icon {
+  color: red;
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.display{
+  display: flex;
+}
+/* Header  */
+.Header-div{
+  width: 85%;
+  height: 100%;
+}
+
+
+.header {
+  grid-area: header;
+  height: 42px;
+  background-color: rgb(255, 255, 255);
+margin-top: 15px;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+  width: 98%;
+  display: inline-flex;
+  margin-left: 1%;
+}
+
+.header-icons{
+width: 100px;
+height: 42px;
+ float: right;
+margin-left: 76%;
+display: flex;
+justify-content: space-between;
+}
+
+.setting-icon{
+  font-size: 18px;
+  float: right;
+  margin-right: 15px;
+  padding-top: 4px;
+}
+
+.bell-icon{
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.async-icon{
+  font-size: 17px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+
+.profile-image {
+  width: 25px; /* Adjust the size as needed */
+  height: 25px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes it circular */
+}
+.profile-dropdown {
+  position: relative;
+ float: right;
+}
+
+
+.profile-button {
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+  padding: 10px 10px;
+  font-size: revert;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.profile-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px 29px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.dropdown-icon{
+  color: #000000;
+  font-size: revert !important;
+    margin-left: 5px;
+    margin-right: 20px;
+   
+}
+
+.dropdown-content{
+  display: table-caption;
+}
+
+.Setting-btn{
+background-color: white;
+border: none;
+width: 90px;
+}
+
+.Logout-btn{
+  background-color: white;
+  border: none;
+  width: 90px;
+}
+
+
+/* 
+.p-dropdown {
+  height: 30px !important;
+  background: #ffffff;
+  border: 0px solid #ced4da !important; 
+  transition: background-color 0.0s, color 0.0s, border-color 0.0s, box-shadow 0.0s !important;
+   border-radius: 6px; 
+} */
+
+/* End Header  */
+
+/* Sidebar  */
+.sidebar {
+height: 620px;
+background-color: white;
+box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+  overflow-y: auto;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+margin-top: 15px;
+
+}
+
+.logo-image{
+  width: 60px;
+  height: 60px;
+}
+
+.sidebar-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px 3px 83px;
+  color: #011540;
+  margin-bottom: 30px;
+}
+
+.sidebar-title > span {
+  display: none;
+}
+
+.sidebar-brand {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar-list-item {
+  font-size: 14px;
+}
+
+.sidebar-list-item:hover {
+  color: #ffc107;
+  cursor: pointer;
+}
+
+
+.Home-text{
+  font-weight: bold;
+}
+
+.Verified-text{
+  font-weight: bold;
+}
+
+
+.Disburse-text{
+  font-weight: bold;
+}
+
+
+
+.Logout-text{
+  font-weight: bold;
+}
+
+
+
+/* ....HOME..... */
+.container1{
+width: 50%;
+height: 92%;
+float: left;
+}
+
+.container2{
+  width: 50%;
+  height: 92%;
+
+  float: right;
+  }
+
+.chart-1{
+  width: 98%;
+  height: 70%;
+  background-color: white;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+  margin-left: 12px;
+  margin-top: 11px;
+}
+
+.chart1-section1{
+  width: 100%;
+  height: 45%;
+}
+
+
+.chart1-dropd {
+  width: 13%;
+  height: 10%;
+  padding-left: 6px;
+  border: none;
+  background-color: #daf1f1;
+  border-radius: 57px;
+  margin-top: 13px;
+  margin-left: 0px;
+  float: right;
+  margin-right: 20px;
+}
+
+.chart1select-dropdown{
+  
+    background-color: transparent;
+    border: none;
+    font-size: smalls;
+    float: left;
+    margin-top: 4px;
+      font-size: 8px;
+   
+}
+
+
+
+.chart-text{
+  margin-left: 42%;
+padding-top: 30px;
+}
+
+.Total-Donations{
+font-size: small;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-left: 95px;
+    padding-top: 27px;
+}
+
+.Total-Donations1{
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #3e98c7;
+}
+
+.Total-Donations2{
+  text-align: center;
+  font-size: 10px;
+  color: #000000;
+
+}
+
+.Total-Donations3{
+  text-align: center;
+  color: black;
+padding-top: 5px;
+display: flex;
+padding-left: 120px;
+font-size: 13px;
+}
+
+.chart1-dropd1{
+  width: 20%;
+  height: 12%;
+  padding-left: 8px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  margin-top: 4px;
+  margin-left: 10px;
+  float: right;
+ 
+}
+
+
+.chart1select-dropdown1{
+  background-color: transparent;
+  border: none;
+  font-size: smalls;
+  float: left;
+ 
+    font-size: 10px;
+}
+
+
+/* .........Chart-2........... */
+
+
+
+.chart-2{
+  width: 98%;
+  height: 25%;
+  background-color: white;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+  margin-left: 12px;
+  margin-top: 9px;
+}
+
+/* .........Chart-3........... */
+.chart-3{
+  width: 47%;
+  height: 11%;
+  background-color: white;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+  margin-left: 11px;
+  margin-top: 11px;
+  float: left;
+  display: flex;
+}
+
+.fst-section{
+width: 70%;
+height: 100%;
+display: flex;
+}
+.snd-section{
+
+display: block;
+}
+
+.chart3-dropd{
+  width: 25%;
+  height: 30%;
+  padding-left: 3px;
+  border: none;
+  background-color:#daf1f1;
+  border-radius: 72px;
+  margin-top: 11px;
+  margin-left: 0px;
+
+}
+
+/* .chart5-circularbar2 .circulabar-color  {
+  stroke: #000 !important;
+font-size: 10px;
+} */
+
+
+.chart3-icon{
+  width: 35px;
+  height: 35px;
+  background-color:#eef2ff;
+  border-radius: 50%;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 25px;
+
+
+}
+
+
+
+.doller-icon{
+  font-size: 20px;
+  margin-left: 8px;
+  color: #68b639;
+}
+
+
+.chart3-text1{ 
+   font-size: 9px;
+font-weight: bold;
+margin-left: 15px;
+margin-top: 13px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}  
+
+
+.chart3-text2{ 
+  font-size: 18px;
+font-weight: bold;
+
+}  
+
+
+
+.chart3-dropdown {
+  position: relative;
+ float: right;
+}
+
+.select-dropdown{
+  background-color: transparent;
+  border: none;
+  font-size: smalls;
+  float: left;
+  margin-top: 4px;
+    font-size: 8px;
+}
+
+.chart3db-button {
+  background-color: blue;
+  border-radius: 25px;
+  margin-top: 12px;
+  align-items: center;
+  margin-left: 25px;
+  font-size: 8px;
+  border: none;
+}
+
+.chart3db-content {
+  position: absolute;
+
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.profile-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+/* .chart1-text{
+    margin-left: 20px;
+    font-size: small;
+    font-weight: bold;
+} */
+
+/* ...........chart-4............ */
+
+.chart-4{
+  width: 47%;
+  height: 11%;
+  background-color: white;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+margin-right: 11px;
+  margin-top: 11px;
+  float: right;
+  display: flex;
+}
+
+
+.chart4-dropd {
+  width: 13%;
+  height: 12%;
+  padding-left: 5px;
+  border: none;
+  background-color: #daf1f1;
+  border-radius: 72px;
+  margin-top: 12px;
+  margin-left: 0px;
+  float: right;
+  margin-right: 20px;
+}
+
+
+.chart4select-dropdown{
+  background-color: transparent;
+  border: none;
+  font-size: smalls;
+  float: left;
+  margin-top: 5px;
+    font-size: 8px;
+} 
+
+.chart4-icon{
+  width: 35px;
+  height: 35px;
+  background-color:#eef2ff;
+  border-radius: 50%;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 28px;
+
+}
+
+
+.BiUser-icon{
+  font-size: 20px;
+  margin-left: 8px;
+  color: #7470ff;
+}
+
+
+
+/* ............chart-5............ */
+
+
+.chart-5{
+  width: 47%;
+  height: 41%;
+  background-color: white;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+margin-right: 11px;
+  margin-top: 10px;
+  float: right;
+}
+
+
+
+.chart5-text1{ 
+  width: 50%;
+  font-size: 10px;
+font-weight: bold;
+margin-left: 15px;
+margin-top: 13px;
+}  
+
+
+.chart5-text2{ 
+ font-size: 20px;
+font-weight: bold;
+color: #659fff;
+
+}  
+
+.chart5-text3{ 
+  font-size: 10px;
+font-weight: bold;
+margin-left: 15px;
+
+}  
+
+
+.chart5-text4{ 
+ font-size: 20px;
+font-weight: bold;
+color: #1bc748;
+
+}  
+
+
+.chart5-section2{
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+
+
+
+
+
+.chart5-circularbar1{
+width: 80px;
+display: flex;
+margin-left: 45px;
+    padding-top: 10px;
+
+}
+
+
+.chart5-circularbar2{
+  width: 80px;
+display: flex;
+margin-left: 12px;
+padding-top: 10px;
+  }
+
+
+  .circulabar-color{
+    color: #ffc107 !important;
+  }
+
+
+  .chart5-dropd {
+    width: 28%;
+    height: 19px;
+    padding-left: 5px;
+    border: none;
+    background-color: #daf1f1;
+    border-radius: 72px;
+    float: right;
+    margin-right: 20px;
+  }
+
+
+  .chart5select-dropdown{
+    background-color: transparent;
+  border: none;
+  font-size: smalls;
+  margin-top: 4px;
+    font-size: 8px;
+    float: left;
+  } 
+
+.chart5-button{
+  border: none;
+    background-color: #0eaf0e;
+    border-radius: 5px;
+    font-size: 9px;
+    margin-left: 98px;
+color: white;
+margin-top: 10px;
+}
+
+
+/* ........Chart6.......... */
+
+.chart-6{
+  width: 47%;
+  height: 41%;
+  background-color: white;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+margin-right: 11px;
+  margin-top: 10px;
+  float: right;
+}
+
+
+.chart6-text1{ 
+  width: 50%;
+  font-size: 10px;
+font-weight: bold;
+margin-left: 15px;
+margin-top: 13px;
+}  
+
+
+.chart6-text2{ 
+ font-size: 20px;
+font-weight: bold;
+color: #659fff;
+
+}  
+
+.chart6-text3{ 
+  font-size: 10px;
+font-weight: bold;
+margin-left: 15px;
+
+}  
+
+
+.chart6-text4{ 
+ font-size: 20px;
+font-weight: bold;
+color: #1bc748;
+
+}  
+
+
+.chart6-section2{
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+
+.chart6-circularbar1{
+width: 80px;
+display: flex;
+margin-left: 45px;
+    padding-top: 10px;
+
+}
+
+
+.chart6-circularbar2{
+  width: 80px;
+display: flex;
+margin-left: 12px;
+padding-top: 10px;
+  }
+
+
+  .circulabar-color{
+    color: #ffc107 !important;
+  }
+
+  .chart6-dropd {
+    width: 28%;
+    height: 19px;
+    padding-left: 5px;
+    border: none;
+    background-color: #daf1f1;
+    border-radius: 72px;
+    float: right;
+    margin-right: 20px;
+  }
+
+
+  .chart6select-dropdown{
+    background-color: transparent;
+  border: none;
+  font-size: smalls;
+  margin-top: 4px;
+    font-size: 8px;
+    float: left;
+  } 
+
+.chart6-button{
+  border: none;
+    background-color: #0eaf0e;
+    border-radius: 5px;
+    font-size: 9px;
+    margin-left: 98px;
+color: white;
+margin-top: 10px;
+}
+
+/* ........Chart7.......... */
+
+.chart-7{
+  width: 47%;
+  height: 41%;
+  background-color: white;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+margin-right: 11px;
+  margin-top: 10px;
+  float: right;
+}
+
+
+.chart7-text1{ 
+  width: 50%;
+  font-size: 10px;
+font-weight: bold;
+margin-left: 15px;
+margin-top: 13px;
+}  
+
+
+.chart7-text2{ 
+ font-size: 20px;
+font-weight: bold;
+color: #659fff;
+
+}  
+
+.chart7-text3{ 
+  font-size: 10px;
+font-weight: bold;
+margin-left: 15px;
+
+}  
+
+
+.chart7-text4{ 
+ font-size: 20px;
+font-weight: bold;
+color: #1bc748;
+
+}  
+
+
+.chart7-section2{
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+
+.chart7-circularbar1{
+width: 80px;
+display: flex;
+margin-left: 45px;
+padding-top: 10px;
+}
+
+
+.chart7-circularbar2{
+  width: 80px;
+display: flex;
+margin-left: 12px;
+padding-top: 10px;
+  }
+
+
+  .circulabar-color{
+    color: #ffc107 !important;
+  }
+
+  .chart7-dropd {
+    width: 28%;
+    height: 19px;
+    padding-left: 5px;
+    border: none;
+    background-color: #daf1f1;
+    border-radius: 72px;
+    float: right;
+    margin-right: 20px;
+  }
+
+
+  .chart7select-dropdown{
+    background-color: transparent;
+  border: none;
+  font-size: smalls;
+  margin-top: 4px;
+    font-size: 8px;
+    float: left;
+  } 
+
+.chart7-button{
+  border: none;
+    background-color: #0eaf0e;
+    border-radius: 5px;
+    font-size: 9px;
+    margin-left: 98px;
+color: white;
+margin-top: 10px;
+}
+
+/* ........Chart8.......... */
+
+.chart-8{
+  width: 47%;
+  height: 41%;
+  background-color: white;
+  box-shadow: 0 2px 7px -3px rgba(0, 0, 0, 0.35);
+margin-right: 11px;
+  margin-top: 10px;
+  float: right;
+}
+
+
+
+.chart8-text1{ 
+  width: 50%;
+  font-size: 10px;
+font-weight: bold;
+margin-left: 15px;
+margin-top: 13px;
+font-family: Arial, sans-serif !important;
+}  
+
+
+.chart8-text2{ 
+ font-size: 20px;
+font-weight: bold;
+color: #659fff;
+
+}  
+
+.chart8-text3{ 
+  font-size: 10px;
+font-weight: bold;
+margin-left: 15px;
+
+}  
+
+
+.chart8-text4{ 
+ font-size: 20px;
+font-weight: bold;
+color: #1bc748;
+
+}  
+
+
+.chart8-section2{
+  width: 100%;
+  height: 40%;
+  display: flex;
+}
+
+.chart8-circularbar1{
+width: 80px;
+display: flex;
+margin-left: 45px;
+padding-top: 10px;
+}
+
+
+.chart8-circularbar2{
+  width: 80px;
+display: flex;
+margin-left: 12px;
+padding-top: 10px;
+}
+
+
+  .circulabar-color{
+    color: #ffc107 !important;
+  }
+
+  .chart8-dropd {
+    width: 28%;
+    height: 19px;
+    padding-left: 5px;
+    border: none;
+    background-color: #daf1f1;
+    border-radius: 72px;
+    float: right;
+    margin-right: 20px;
+  }
+
+
+  .chart8select-dropdown{
+    background-color: transparent;
+  border: none;
+  font-size: smalls;
+  margin-top: 4px;
+    font-size: 8px;
+    float: left;
+  } 
+
+.chart8-button{
+  border: none;
+    background-color: #0eaf0e;
+    border-radius: 5px;
+    font-size: 9px;
+    margin-left: 98px;
+color: white;
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* .....VerifiedPersons...... */
+
+.VerifiedPersons{
+  text-decoration: none;
+  color: #011540;
+}
+
+.DisDonations{
+  text-decoration: none;
+  color: #011540;
+}
+
+.Logout{
+  text-decoration: none;
+  color: #011540;
+}
+
+.sidebar-responsive {
+  display: inline !important;
+  position: absolute;
+  /*
+    we want the z-index of the sidebar higher so that
+    the charts are not showing over the sidebar 
+    on small screens
+  */
+  z-index: 12 !important;
+}
+
+
+
+/* End Sidebar  */
+
+
+/* Main  */  
+.main-container {
+  grid-area: main;
+  overflow-y: auto;
+  padding: 10px 10px;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.main-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 15px 0;
+}
+
+
+
+.city{
+  width: 100%;
+  height: 100%;
+  background-color: #011540;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+.card:first-child {
+  background-color: #2962ff;
+}
+
+.card:nth-child(2) {
+  background-color: #ff6d00;
+}
+
+.card:nth-child(3) {
+  background-color: #2e7d32;
+}
+
+.card:nth-child(4) {
+  background-color: #d50000;
+}
+
+.card-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-inner > .card_icon {
+  font-size: 25px;
+}
+
+.charts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 60px;
+  height: 300px;
+}
+
+/* End Main  */
+
+
+/* Medium <= 992px */
+  
+@media screen and (max-width: 992px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'header'
+      'main';
+  }
+
+  #sidebar {
+    display: none;
+  }
+
+  .menu-icon {
+    display: inline;
+  }
+
+  .sidebar-title > span {
+    display: inline;
+  }
+}
+/* Small <= 768px */
+  
+@media screen and (max-width: 768px) {
+  .main-cards {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 0;
+  }
+
+  .charts {
+    grid-template-columns: 1fr;
+    margin-top: 30px;
+  }
+}
+
+/* Extra Small <= 576px */
+
+@media screen and (max-width: 576px) {
+  .hedaer-left {
+    display: none;
+  }
+}
+
+
+/* Login Form */
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
+
+.search-bar{
+  background-color: #1d2634 !important;
+}
+
+
+
+
+
+
+
+
+#progress-bar-container {
+	width: 475px;
+	height: 17px;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	border-radius: 35px;
+	overflow: hidden;
+}
+
+.progress-bar-child {
+	width: 100%;
+	height: 100%;
+}
+
+.progress {
+	color: white;
+	text-align: center;
+	line-height: 75px;
+	font-size: 35px;
+	font-family: "Segoe UI";
+	animation-direction: reverse;
+	background: #e5405e;
+
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #e5405e 0%, #ffdb3a 45%, #3fffa2 100%);
+}
+
+.shrinker {
+	background-color: black;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+
+.timelapse {
+	animation-name: timelapse;
+	animation-fill-mode: forwards;
+	animation-duration: 2s;
+	animation-timing-function: cubic-bezier(.86, .05, .4, .96);
+}
+
+@keyframes timelapse {
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 0%;
+	}
+}
